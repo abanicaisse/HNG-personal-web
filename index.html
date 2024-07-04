@@ -14,15 +14,12 @@
             <h1>Aba Nicaisse</h1>
             <div class="nav-links">
                 <div>
-                    <a href="#">Features</a>
-                    <a href="#">About Us</a>
-                    <a href="#">Pricing</a>
-                    <a href="#">Blog</a>
-                    <a href="#">FAQs</a>
-                    <a href="#">Contact Us</a>
-                    <a href="#">Careers</a>
+                    <a href="http://hng.tech/learn" target="_blank" data-testid="hngLink">HNG Learn</a>
+                    <a href="http://keyword.dog/" target="_blank" data-testid="keywordLink">Keywords</a>
+                    <a href="http://scrapeanyweb.site/" target="_blank" data-testid="scrapeanywebLink">Scraping</a>
                 </div>
-                <a href="#">Contact Me</a>
+                <a href="https://www.linkedin.com/in/abanicaisse/" target="_blank"
+                    data-testid="abanicaisse-linkedin">Contact Me</a>
             </div>
         </nav>
     </header>
@@ -34,7 +31,7 @@
             <a href="https://github.com/abanicaisse" target="_blank">Check Out My GitHub</a>
         </div>
 
-        <div class="our-values">
+        <div class="my-goals">
             <h1 class="title">My Goals</h1>
             <p>As a Software Engineer, below are my tech goals for the next 2 years:</p>
             <div class="card-container">
@@ -67,7 +64,7 @@
                         <img src="./assets/job.jpg" alt="Next JS" width="100%" height="160px">
                     </div>
                     <div>
-                        <h2>Grow as you go</h2>
+                        <h2>Launch a Tech Job</h2>
                         <p>Land a Remote Software Engineering job, where I'll get to put my knowledge to practice in a
                             much more professional settings
                         </p>
@@ -77,42 +74,98 @@
         </div>
     </main>
 
-    <section class="life">
+    <section class="slack">
         <div class="max-screen-width">
-            <h1 class="title">Life at Our Company</h1>
-            <video>
-                <source src="#">
-            </video>
-        </div>
-    </section>
-
-    <section class="perks">
-        <div class="max-screen-width">
-            <h1 class="title">Perks</h1>
-            <div class="perks-container">
-                <div>
-                    <p>$</p>
-                    <p>Competitive Salary</p>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere maiores voluptate quis!</p>
+            <h1 class="title">Find Me on Slack</h1>
+            <div class="my-slack">
+                <div class="slack-img">
+                    <img src="https://ca.slack-edge.com/T07466B189M-U07BBHLQR09-61dcaff04d4d-512" alt="my slack profile"
+                        width="100%" data-testid="slackProfilePicture">
                 </div>
-                <div>
-                    <p>$</p>
-                    <p>Competitive Salary</p>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere maiores voluptate quis!</p>
-                </div>
-                <div>
-                    <p>$</p>
-                    <p>Competitive Salary</p>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere maiores voluptate quis!</p>
-                </div>
-                <div>
-                    <p>$</p>
-                    <p>Competitive Salary</p>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere maiores voluptate quis!</p>
+                <div class="slack-credentials">
+                    <p data-testid="slackDisplayName">Slack Name: <span>Nicaisse</span></p>
+                    <p data-testid="slackEmail">Slack Email: <span>abawandjovunicaise@gmail.com</span></p>
+                    <p data-testid="currentDay">Current Day of Week: <span id="currentDay"></span></p>
+                    <p data-testid="currentTimeUTC">Current Time in UTC: <span id="currentTime"></span></p>
                 </div>
             </div>
         </div>
     </section>
+
+    <section class="skills">
+        <div class="max-screen-width">
+            <h1 class="title">My Tech Stacks</h1>
+            <div class="skills-container">
+                <div>
+                    <img src="./assets/html-logo.svg" alt="html" data-testid="html-logo" width="20px">
+                    <p>HTML</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate optio voluptates quasi
+                        doloremque?</p>
+                </div>
+                <div>
+                    <img src="./assets/css-logo.svg" alt="css-logo" data-testid="css-logo" width="20px">
+                    <p>CSS</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate optio voluptates quasi
+                        doloremque?</p>
+                </div>
+                <div>
+                    <img src="./assets/js-logo.svg" alt="js-logo" data-testid="js-logo" width="20px">
+                    <p>JavaScript</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate optio voluptates quasi
+                        doloremque?</p>
+                </div>
+                <div>
+                    <img src="./assets/react-logo.svg" alt="react-logo" data-testid="react-logo" width="20px">
+                    <p>ReactJS</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate optio voluptates quasi
+                        doloremque?</p>
+                </div>
+                <div>
+                    <img src="./assets/tailwind-logo.svg" alt="tailwind-logo" data-testid="tailwind-logo" width="20px">
+                    <p>Tailwind CSS</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate optio voluptates quasi
+                        doloremque?</p>
+                </div>
+                <div>
+                    <img src="./assets/firebase-logo.svg" alt="firebase-logo" data-testid="firebase-logo" width="20px">
+                    <p>Firebase</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate optio voluptates quasi
+                        doloremque?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="max-screen-width">
+            <p>@Copyright 2024, All right reserved</p>
+            <p>Built for HNG Internship - Stage 1 - Task</p>
+            <p>Designed and Coded with love by <a href="https://github.com/abanicaisse/" target="_blank"
+                    data-testid="abanicaise-github">Aba Wandjovu Nicaisse</a></p>
+        </div>
+    </footer>
+
+    <!-- JavaScript to get the current day & time -->
+    <script>
+        function updateDateTime() {
+            // const now = new Date();
+            const date = new Date();
+
+            const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+
+            const currentDayOfWeek = days[date.getUTCDay()];
+            const hours = date.getUTCHours();
+            const minutes = date.getUTCMinutes();
+            const seconds = date.getUTCSeconds();
+
+
+
+            document.querySelector('#currentDay').textContent = currentDayOfWeek;
+            document.querySelector('#currentTime').textContent = `${hours}:${minutes}:${seconds}`;
+        }
+
+        setInterval(updateDateTime, 1000);
+    </script>
 </body>
 
 </html>
